@@ -1,7 +1,4 @@
 import * as React from "react";
-import * as $ from 'jquery';
-// import 'bootstrap';
-import Popup from './Popup';
 import { AppBar } from "material-ui";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
@@ -19,7 +16,7 @@ export class Hello extends React.Component<HelloProps, {}> {
         return (
             <MuiThemeProvider>
                 <AppBar
-                    title="Titl"
+                    title="Title"
                     iconClassNameRight="muidocs-icon-navigation-expand-more"
                 />
             </MuiThemeProvider>
