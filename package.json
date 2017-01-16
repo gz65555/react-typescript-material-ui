@@ -12,11 +12,11 @@
     "@types/material-ui": "^0.16.46",
     "@types/react": "^0.14.39",
     "@types/react-dom": "^0.14.17",
-    "@types/react-tap-event-plugin": "^1.0.0",
+    "@types/react-tap-event-plugin": "0.0.30",
     "material-ui": "^0.16.7",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-tap-event-plugin": "^1.0.0"
+    "react-tap-event-plugin": "^2.0.0"
   },
   "devDependencies": {
     "source-map-loader": "^0.1.5",
