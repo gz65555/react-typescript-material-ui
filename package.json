@@ -1,0 +1,25 @@
+{
+  "name": "proj",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --open"
+  },
+  "author": "Kevin.Hu",
+  "license": "ISC",
+  "dependencies": {
+    "@types/material-ui": "^0.16.46",
+    "@types/react": "^0.14.39",
+    "@types/react-dom": "^0.14.17",
+    "@types/react-tap-event-plugin": "^1.0.0",
+    "material-ui": "^0.16.7",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-tap-event-plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2"
+  }
+}
