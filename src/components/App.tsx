@@ -3,10 +3,8 @@ import { AppBar } from "material-ui";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 
-export interface HelloProps { compiler: string; framework: string; }
-
-export class Hello extends React.Component<HelloProps, {}> {
-    constructor(props: HelloProps) {
+export class App extends React.Component<{}, {}> {
+    constructor(props:{}) {
         super(props);
     }
     componentDidMount() {
@@ -16,7 +14,7 @@ export class Hello extends React.Component<HelloProps, {}> {
         return (
             <MuiThemeProvider>
                 <AppBar
-                    title="Title"
+                    title="App"
                     iconClassNameRight="muidocs-icon-navigation-expand-more"
                 />
             </MuiThemeProvider>
